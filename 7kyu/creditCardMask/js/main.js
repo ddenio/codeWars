@@ -23,3 +23,9 @@ function maskify(cc) {
 console.log(maskify("3432423422888"))
 console.log(maskify("1"))
 console.log(maskify("Nananananananananananananananana Batman!"))
+
+//top codewars solution:
+
+// function maskify(cc) {
+//     return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+//   }
