@@ -19,7 +19,7 @@
 // getIssuer(9111111111111111) == "Unknown"
 
 function getIssuer(number) {
-    console.log(number.toString().length)
+    // console.log(number.toString().length)
   if(number.toString()[0] === '4' && number.toString().length===13 || number.toString()[0] === '4' && number.toString().length===16){
     return "VISA"
   }else if (number.toString()[0] === '3' && number.toString()[1] === '4' && number.toString().length === 15 || number.toString()[0] === '3' && number.toString()[1] === '7' && number.toString().length === 15){
